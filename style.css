@@ -220,3 +220,21 @@ nav a{
     background-color: #099da1;
     color: #fff;
 }
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #099da1; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #067276; 
+  cursor: pointer;
+}
