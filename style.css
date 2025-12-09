@@ -121,3 +121,34 @@ nav a{
     margin-top: 3%;
     width: 99%;
 }
+
+/* About Section */
+.aboutUs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    padding-bottom: 6rem;
+}
+
+.aboutUs img{
+    flex: 1 ;
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutUs div{
+    flex: 1 1;
+    padding-left: 2.5rem;
+    width: 37%;
+}
+
+.aboutUs div h2{
+    font-size: 40px;
+}
+
+.aboutUs div p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
