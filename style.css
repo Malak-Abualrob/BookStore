@@ -153,6 +153,30 @@ nav a{
     padding-bottom: 25px;
 }
 
+.under-pp {
+    padding-bottom: 12%;
+}
+
+.new-arr {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.new-arr h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
 .book-card {
   flex: none;
   width: 12rem;
