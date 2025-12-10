@@ -406,7 +406,7 @@ nav a{
     margin-left: 7%;
 }
 
-/............................Blog Section.........................../
+/*............................Blog Section...........................*/
 
 .our-blog{
     display: flex;
@@ -743,5 +743,48 @@ nav a{
 
     .ourBlogTitle {
         font-size: 36px;
+    }
+}
+
+/* Fix for mobile navigation */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Fix for book grid on mobile */
+@media screen and (max-width: 576px) {
+    .book-grid {
+        gap: 15px;
+        padding: 15px;
+    }
+}
+
+/* Fix for welcome section padding on mobile */
+@media screen and (max-width: 768px) {
+    .welcome {
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+    }
+}
+
+/* Fix for digital book section on mobile */
+@media screen and (max-width: 768px) {
+    .digital-book {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        background-size: cover;
+    }
+
+    .learn-more-button-digital {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }
