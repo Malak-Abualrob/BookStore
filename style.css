@@ -534,3 +534,70 @@ nav a{
   max-width: 300px;
   width: 100%;
 }
+
+.newsletter-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Newsletter form */
+.newsletter-form {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+  align-items: stretch; 
+}
+
+
+.newsletter-form input {
+  width: 100%; 
+  padding: 12px 20px;
+  font-size: 14px;
+  background-color: #cccccc;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.newsletter-form input::placeholder {
+  color: #666;
+}
+
+
+.newsletter-form button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content; 
+  margin-left: 0; 
+  margin-right: auto; 
+}
+
+
+.newsletter-form button:hover {
+  background-color: #0096c7;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #efefef;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-bottom span {
+    color: #00b4d8;
+}
