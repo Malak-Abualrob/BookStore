@@ -371,3 +371,13 @@ nav a{
 .card-para{
     font-size: 15px;
 }
+
+.card-rates{
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+.card-rates-arrr{
+    padding-top: 4px;
+    padding-bottom: 10px;
+    text-align: center;
+}
