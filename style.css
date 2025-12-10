@@ -345,3 +345,29 @@ nav a{
     width: 323px;
     padding: 15px;
 }
+
+.card-profile-img{
+    border: none;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.reviews .card .card-head div h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reviews .card .card-head div i{
+    font-size: 80px;
+    padding-top: 20px;
+}
+
+.card-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-para{
+    font-size: 15px;
+}
